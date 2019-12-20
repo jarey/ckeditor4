@@ -10,10 +10,11 @@
       "assets": [
         "assets",
         "favicon.ico",
+        "assets/js/ckeditor/plubins/widget/images/handle.png",
         {
-          "glob": "**/*", 
-          "input": "../node_modules/ckeditor/", 
-          "output": "assets/js/ckeditor/", 
+          "glob": "**/*",
+          "input": "../node_modules/ckeditor/",
+          "output": "assets/js/ckeditor/",
           "allowOutsideOutDir": true
         }
       ],
@@ -28,7 +29,9 @@
         "styles.css"
       ],
       "scripts": [
-        "../node_modules/ckeditor/ckeditor.js"
+        "../node_modules/ckeditor/ckeditor.js",
+        "assets/js/ckeditor/plugins/link/dialogs/link.js",
+        "assets/js/ckeditor/plugins/table/dialogs/table.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
